@@ -18,12 +18,16 @@ def animate(i):
     y6 = data["head_slope"][20:]
     plt.cla()
 
-   # plt.plot(x, y4)
-   # plt.plot(x, y5)
+#plt.subplot()
+  #  plt.plot(x, y4)
+ #   plt.plot(x, y5)
 
-  #  plt.plot(x, y5)
-    plt.plot(x, y6)
-    plt.legend(["head total", "head slope"])
+#    plt.subplot()
+#    plt.scatter(x, y6, s=10)
+
+    plt.plot(x, y1)
+    plt.legend(["eye ratio"])
+  #  plt.legend(["head total", "head slope"])
     plt.xlabel("Time")
     
     
@@ -31,3 +35,5 @@ def animate(i):
 ani = FuncAnimation(plt.gcf(), animate, interval=0.01)
 plt.show()
 
+
+#%%
