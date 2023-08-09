@@ -19,11 +19,12 @@ def animate(i):
     headv = data["head_v"][points:]
     headslope = data["head_slope"][points:]
     sin = data["planar_angle"][points:]
+    abs_mov = data["abs_mov"][points:]
 
  #   ax.clear()
     ax[0,0].clear()
-    ax[0,0].plot(time, headslope, 'tab:orange')
-    ax[0,0].set_title("Vertical + Horizontal Head")
+    ax[0,0].plot(time, abs_mov, 'tab:orange')
+    ax[0,0].set_title("Absolute Movement")
 
     ax[0,1].clear()
     ax[0,1].plot(time, sin, 'tab:red')
