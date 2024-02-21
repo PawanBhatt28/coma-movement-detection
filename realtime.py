@@ -23,9 +23,36 @@ def animate(i):
     lip_sum = data["lip_sum"][points:]
     lip_ratio = data["lip_ratio"][points:]
 
+    ax[1].clear()
+    ax[1].plot(time, abs_mov, 'tab:orange')
+    ax[1].set_title("Absolute movement")
+
+    ax[0].clear()
+    ax[0].plot(time, lip_sum, 'tab:pink')
+    ax[0].set_title("Lip sum")
+
+'''
+    ax[0].clear()
+    ax[0].plot(time, lefteye)
+    ax[0].set_title("left eye")
+'''
+    
+'''
     ax[0,0].clear()
     ax[0,0].plot(time, abs_mov, 'tab:orange')
     ax[0,0].set_title("Absolute Movement")
+
+    ax[0,1].clear()
+    ax[0,1].plot(time, lip_sum, 'tab:pink')
+    ax[0,1].set_title("Lip sum")
+
+    ax[1,0].clear()
+    ax[1,0].plot(time, lip_ratio, 'tab:blue')
+    ax[1,0].set_title("Lip ratio")
+
+    ax[1,1].clear()
+    ax[1,1].plot(time, lefteye)
+    ax[1,1].set_title("eye")
 
     ax[0,1].clear()
     ax[0,1].plot(time, headh, 'tab:red')
@@ -34,10 +61,9 @@ def animate(i):
     ax[1,0].clear()
     ax[1,0].plot(time, headv, 'tab:green')
     ax[1,0].set_title("head vertical")
+'''
 
-    ax[1,1].clear()
-    ax[1,1].plot(time, lefteye)
-    ax[1,1].set_title("eye")
+
 
    # ax[0,0].plot(time, headslope)
  #   ax.plot(time, headh)
@@ -52,7 +78,8 @@ def animate(i):
 
 
 #ax = fig.add_subplot(111)
-fg, ax = plt.subplots(2,2)
+#fg, ax = plt.subplots(2,2)
+fg, ax = plt.subplots(2)
 
 ani = FuncAnimation(plt.gcf(), animate, interval=10)
 plt.tight_layout()
