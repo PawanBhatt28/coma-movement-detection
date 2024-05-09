@@ -20,5 +20,5 @@ To effectively monitor facial movements, we have developed techniques to categor
 ## 3D Head Movement Tracking
 Tracking head movement in a 3D perspective presents unique challenges. Our solution addresses this complexity by employing Mediapipe to track two carefully selected landmarks and determine the head's rotation and position. We have developed algorithms that evaluate these landmarks to identify any significant head movements, providing valuable insights into the patient's condition.
 
-Conclusion
+## Conclusion
 In conclusion, our digital solution leverages the robust capabilities of the Mediapipe framework to extract and analyze facial landmarks in real-time, enabling continuous monitoring of facial expressions, eye movements, and head rotations in comatose patients. By detecting even minute changes in the patient's condition, our solution has the potential to assist healthcare professionals in making timely assessments and implementing appropriate treatments.
