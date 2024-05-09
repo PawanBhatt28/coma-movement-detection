@@ -23,7 +23,7 @@ Tracking head movement in a 3D perspective presents unique challenges. Our solut
 ## Conclusion
 In conclusion, our digital solution leverages the robust capabilities of the Mediapipe framework to extract and analyze facial landmarks in real-time, enabling continuous monitoring of facial expressions, eye movements, and head rotations in comatose patients. By detecting even minute changes in the patient's condition, our solution has the potential to assist healthcare professionals in making timely assessments and implementing appropriate treatments.
 
-![alt text](https://github.com/PawanBhatt28/coma-movement-detection/blob/master/temp/front.png?raw=true)
+![alt text](https://github.com/PawanBhatt28/coma-movement-detection/blob/master/temp/front.png?)
 ![alt text](https://github.com/PawanBhatt28/coma-movement-detection/blob/master/temp/far_front.png?raw=true)
 ![alt text](https://github.com/PawanBhatt28/coma-movement-detection/blob/master/temp/left_side.png?raw=true)
-![alt text](https://github.com/PawanBhatt28/coma-movement-detection/blob/master/temp/right_side.png?raw=true)
+![alt text](https://github.com/PawanBhatt28/coma-movement-detection/blob/master/temp/right_side.png?)
